@@ -28,12 +28,6 @@ async def start(bot, update):
 
 Join on our channel to get movies ✅
 
-
-⚠️താങ്കൾ ഞങ്ങളുടെ ചാനൽ സബ്സ്ക്രൈബ് ചെയ്തിട്ട് ഇല്ല ! ⚠️
-
-
-ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് movies കിട്ടുന്നത് ആണ് ✅
-
 ⬇️Channel link⬇️ </b>""",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="⚡ Join My Channel⚡️", url=f"https://t.me/{update_channel}")]
@@ -66,7 +60,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/JNS_BOTS"
+                                    '⭕️ Join Group ⭕️', url="https://t.me/Hollywood_0980"
                                 )
                         ]
                     ]
@@ -85,7 +79,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/jns_bots"
+                                    '⭕️ Join Group ⭕️', url="https://t.me/Hollywood_0980"
                                 )
                         ]
                     ]
@@ -104,7 +98,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/jns_bots"
+                                    '⭕️ Join Group ⭕️', url="https://t.me/Hollywood_0980"
                                 )
                         ]
                     ]
@@ -117,12 +111,12 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/jns_bots'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
+        InlineKeyboardButton('⚪️ 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽 ⚪️', url='https://t.me/Hollywood_0980'),
+        InlineKeyboardButton('𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 ✅', url ='https://t.me/CVBHJOI_BOT')],                               
      [
-        InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
+        InlineKeyboardButton('🎬 𝗦𝗵𝗮𝗿𝗲 & 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ➡️', url='https://t.me/share/url?url=💯%20𝙽𝙾%201%20𝙼𝙾𝚅𝙸𝙴%20𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙸𝙽𝙶%20𝙶𝚁𝙾𝚄𝙿%20𝙸𝙽%20𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼%20✅%20%0A%0A𝙹𝙾𝙸𝙽%20𝙰𝙽𝙳%20𝚁𝙴𝚀%20𝚈𝙾𝚄𝚁%20𝙵𝙰𝚅𝙾𝚁𝙸𝚃𝙴%20𝙼𝙾𝚅𝙸𝙴𝚂%20𝚁𝙸𝙶𝙷𝚃%20𝙽𝙾𝚆%20%0A%0A💠%20➠%20𝙶𝚁𝙾𝚄𝙿%20:-%20@Hollywood_0980%20%0A💠%20➠%20𝙲𝙷𝙰𝙽𝙽𝙴𝙻%20:-%20@DFF_UPDATE%20%0A')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('𝗛𝗲𝗹𝗽 🔺', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
