@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('🔻𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽 🔺', url='https://t.me/jintons'),
-            InlineKeyboardButton('𝗠𝗮𝘀𝘁𝗲𝗿 ⬅️', url ='https://t.me/githubsoursecode')
+            InlineKeyboardButton('🔻𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽 🔺', url='https://t.me/Hollywood_0980'),
+            InlineKeyboardButton('𝗠𝗮𝘀𝘁𝗲𝗿 ⬅️', url ='https://t.me/CVBHJOI_BOT')
         ],[
-            InlineKeyboardButton('𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🛠', url='https://t.me/jns_bots')
+            InlineKeyboardButton('𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🛠', url='https://t.me/DFF_UPDATE')
         ],[
             InlineKeyboardButton('𝗛𝗲𝗹𝗽 ⚙', callback_data="help")
         ]]
