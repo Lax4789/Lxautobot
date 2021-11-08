@@ -95,7 +95,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"🔘 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔘", callback_data="ignore")
+            InlineKeyboardButton(f"⭕️ Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} ⭕️", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"<i>𝗜 𝗙𝗼𝘂𝗻𝗱</i> <code>{leng}</code> <i>𝗥𝗲𝘀𝘂𝗹𝘁𝘀 𝗙𝗼𝗿 𝗬𝗼𝘂𝗿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 ➡️:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1639,12 +1639,12 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/jintons'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://t.me/githubsoursecode')
+            InlineKeyboardButton('🔻𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽 🔺', url='https://t.me/jintons'),
+            InlineKeyboardButton('𝗠𝗮𝘀𝘁𝗲𝗿 ⬅️', url ='https://t.me/githubsoursecode')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/jns_bots')
+            InlineKeyboardButton('𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🛠', url='https://t.me/jns_bots')
         ],[
-            InlineKeyboardButton('Help ⚙', callback_data="help")
+            InlineKeyboardButton('𝗛𝗲𝗹𝗽 ⚙', callback_data="help")
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
